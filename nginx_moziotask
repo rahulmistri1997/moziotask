@@ -1,0 +1,12 @@
+server {
+    server_name ec2-13-232-249-114.ap-south-1.compute.amazonaws.com;
+
+    location /static/ {
+        root /home/ubuntu/test/moziotask;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.socket;
+    }
+}
