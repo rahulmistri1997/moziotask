@@ -3,7 +3,9 @@ Backend Python Coding Project
 
 # API Docs
 
-> BaseURL : http://ec2-13-232-249-114.ap-south-1.compute.amazonaws.com/
+> ~~BaseURL : http://ec2-13-232-249-114.ap-south-1.compute.amazonaws.com/~~ (Terminated Due to Billing Constraint)
+                      Will be migrating to [Heroku](http://heroku.com) or [Deta](http://deta.sh) in the future.
+
 ```
 Endpoints : 
   - /providers/
